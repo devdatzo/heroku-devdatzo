@@ -34,6 +34,9 @@ a{
 .nav-link{
   transition: 0.7s ease;
 }
+.active{
+  color: rgb(55, 95, 206);
+}
 .nav-link:hover{
   color: rgb(55, 95, 206);
 }
@@ -106,7 +109,22 @@ button{
   padding-left: 20px;
   padding-right: 20px;
 }
-@media only screen and (max-width: 640px) {
+
+/* humberger menu  */
+.humberger{
+  display: none;
+  cursor: pointer;
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+@media(max-width:768px){
   .img-responsive{
     width: 300px;
     height: auto;
@@ -128,32 +146,6 @@ button{
     align-self: center;
     flex-direction: column;
   }
-}
-@media only screen and (min-width: 980px) {
-
-  .img-responsive{
-    width: 400px;
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-/* humberger menu  */
-.humberger{
-  display: none;
-  cursor: pointer;
-}
-.bar{
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: black;
-}
-@media(max-width:768px){
   .humberger{
     display: block;
   }
@@ -182,5 +174,14 @@ button{
   }
   .nav-menu.active{
     left: 0;
+  }
+}
+@media only screen and (min-width: 980px) {
+
+  .img-responsive{
+    width: 400px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
