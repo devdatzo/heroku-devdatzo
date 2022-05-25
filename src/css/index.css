@@ -32,6 +32,7 @@ a{
   font-size: 2rem;
 }
 .nav-link{
+  color: #072531;
   transition: 0.7s ease;
 }
 .nav-link:hover{
