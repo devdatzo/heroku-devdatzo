@@ -34,9 +34,6 @@ a{
 .nav-link{
   transition: 0.7s ease;
 }
-.active{
-  color: rgb(55, 95, 206);
-}
 .nav-link:hover{
   color: rgb(55, 95, 206);
 }
