@@ -11,6 +11,7 @@ li{
   list-style: none;
 }
 a{
+  font-weight: 600;
   color: #072531;
   text-decoration: none;
 }
@@ -106,9 +107,6 @@ button{
   padding-right: 20px;
 }
 @media only screen and (max-width: 640px) {
-  .bar{
-    display: block;
-  }
   .img-responsive{
     width: 300px;
     height: auto;
