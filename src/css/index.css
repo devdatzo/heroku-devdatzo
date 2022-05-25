@@ -1,73 +1,41 @@
-/* body {
+*{
   font-family: "Poppins", sans-serif;
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+header{
   background-color: #f7f7f7;
 }
-
-nav {
-  background-color: #f7f7f7;
-  position: sticky;
-  top: 0;
-  display: flex;
-  padding: 1em 0.5em;
-}
-ul {
-  margin: 0;
+li{
   list-style: none;
 }
-li {
-  padding: 10px;
-  display: block;
-  float: left;
-}
-a {
-  color: #48494b;
+a{
+  color: #072531;
   text-decoration: none;
-  font-weight: 800;
 }
-.nav-title {
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-}
-.nav-items {
+.navbar{
+  min-height: 70px;
   display: flex;
-  margin-left: auto;
-  font-weight: 600;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
 }
-.logo {
-  width: 39px;
-  height: auto;
-}
-.mobile {
+.nav-menu{
   display: flex;
-  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
 }
-.mobile-menu {
-  display: flex;
-  width: 32px;
-  height: 32px;
-  padding: 5px;
-  cursor: pointer;
+.nav-branding{
+  font-size: 2rem;
 }
-.nav-mobile {
-  position: absolute;
-  top: 70px;
-  left: 0;
-  right: 0;
-  background-color: #f7f7f7;
-  transform: translateX(-100%);
-  transition: 0.6s;
+.nav-link{
+  transition: 0.7s ease;
 }
-.show-mobile-item{
-  transform: translateX(-0%);
-  transition: 0.6s;
+.nav-link:hover{
+  color: #ffff;
 }
-.nav-logo {
-  padding: 10px;
-  width: 32px;
-  height: 32px;
-} */
 h3{
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
@@ -136,25 +104,9 @@ button{
   padding-left: 20px;
   padding-right: 20px;
 }
-/* .txt-jutify{
-  text-align: justify;
-}
-li>a:hover{
-  color: #42b8e7;
-} */
 @media only screen and (max-width: 640px) {
   .bar{
     display: block;
-  }
-  .nav-items {
-    display: none;
-  }
-  li {
-    text-align: center;
-    float: none;
-  }
-  ul {
-    padding: 0;
   }
   .img-responsive{
     width: 300px;
@@ -178,77 +130,14 @@ li>a:hover{
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 641px) {
-  .mobile {
-    display: none;
-  }
-  .img-responsive{
-    width: 260px;
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .mobile-menu {
-    display: none;
-  }
-  .nav-menu {
-    display: none;
-  }
-}
 @media only screen and (min-width: 980px) {
-  .mobile {
-    display: none;
-  }
+
   .img-responsive{
     width: 400px;
     height: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .mobile-menu {
-    display: none;
-  }
-  .nav-menu {
-    display: none;
-  }
-}
-*{
-  font-family: "Poppins", sans-serif;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-header{
-  background-color: #f7f7f7;
-}
-li{
-  list-style: none;
-}
-a{
-  color: #072531;
-  text-decoration: none;
-}
-.navbar{
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-}
-.nav-menu{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
-.nav-branding{
-  font-size: 2rem;
-}
-.nav-link{
-  transition: 0.7s ease;
-}
-.nav-link:hover{
-  color: #ffff;
 }
 
 /* humberger menu  */
