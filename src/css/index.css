@@ -83,7 +83,7 @@ button{
   text-align: center;
 }
 .container-flex-secondary{
-  background-color: rgba(210, 230, 247, 0.938);
+  background-color: rgb(234, 247, 247);
   justify-content: space-around;
   padding: 25px;
   display: flex;
