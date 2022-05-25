@@ -161,7 +161,7 @@ button{
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: white;
+    background-color: #ffff;
     width: 100%;
     text-align: center;
     transition: 0.5s;
