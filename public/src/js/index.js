@@ -12,7 +12,7 @@ document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener("click",()=
 
 const activePage = window.location.pathname;
 const navLink = document.querySelectorAll(".nav-link").forEach(link =>{
-   if(link.href.includes(`${activePage}`)&&activePage!=="//"){
+   if(link.href.includes(`${activePage}`)&&activePage!=="/"){
       link.classList.add("actives")
    }
 })
