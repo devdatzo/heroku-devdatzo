@@ -68,6 +68,9 @@ button{
   padding: 0;
   background-color: transparent;
 }
+.btn-large > a{
+  color: #ffff;
+}
 .btn-large{
   border-radius: 25px;
   background-color: rgb(37, 107, 199);
