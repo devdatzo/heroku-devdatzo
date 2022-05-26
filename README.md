@@ -1,3 +1,3 @@
 # Website Portfolio Uploaded to Heroku
-Pembuatan website portfolio dengan html+css+js
+Build with HTML, CSS, and JavaScript
 https://driyando.herokuapp.com/
